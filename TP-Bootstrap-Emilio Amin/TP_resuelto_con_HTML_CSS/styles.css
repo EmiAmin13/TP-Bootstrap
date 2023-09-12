@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(113, 204, 121)s;
+    width: 1100px;
+    padding: 12px;
+    border: 4px solid grey;
+    margin: auto;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    padding: 16px;
+    border: 4px solid black ;
+    margin: 24px;
+    border-radius: 1%;
+}
+
+p {
+    font-family:courier;
+    padding: 12px;
+    border: 4px;
+    margin: 4px;
+}
+
+h1 {
+    font-family:verdana;
+    padding: 12px;
+    border: 4px;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+h3 {
+    color: rgb(4, 177, 33); 
+    font-family:verdana;
+    padding: 8px;
+    border: 4px;
+    margin-left:8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+button {
+    background-color: rgb(0, 255, 42);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    width: 350px;
+    height: 50px;
+    padding: 12px;
+    border: 4px green;
+    margin: auto;
+    border-radius: 2%;
+        transition: ease all 100ms;
+}
+
+
+button:hover{
+    cursor: pointer;
+    opacity: .7;
+    transform: scale(1.02);
+}
+
+.lineaVerde{
+    background-color: rgb(39, 255, 39); 
+    width: 150px;
+    height: 3px;
+    border: 4px;
+    margin: 12px;
+}
+
+.imagen{
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 2%;
+}
+
+.Navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(39, 39, 39);
+}
+
+.boton-iniciar{
+    margin: auto;
+    width: 400px;
+    height: 64px;
+    padding: 16px;
+
+}
+
+.boton-registrar{
+    margin: auto;
+    width: 400px;
+    height: 64px;
+    padding: 16px;
+}
